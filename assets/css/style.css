@@ -1,0 +1,158 @@
+/* CSS styling for index.html 
+   Referenced https://www.w3schools.com/w3css/
+   for formal definitions. 
+*/
+
+/* The box-sizing property allows for the padding 
+   and border in an element's total width and height. */
+* {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+}
+
+/* Set Background Color of webpage */
+body {
+    background-color: #d9dcd6;
+}
+
+/* header class styling  */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* h1 tag class, inline-block allows to set a width
+   and height on an element. */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* This class gives the "seo" text in "Horiseon"
+   at the top left of the page a grayish color so that it 
+   emphasizes */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* styling for links container at top right of page */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* list-style-types allows you to specify the icon for your
+   list such as circle, square, or none */
+.header div ul {
+    list-style-type: none;
+}
+
+
+/* Set the margins for the contents of the list at the top right 
+   of the page */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* styling for anchor tag text */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* styling for paragraph tag text */
+p {
+    font-size: 16px;
+}
+
+/* styling for hero image at top of page */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/01-HTML-Git-CSS_02-Homework_Develop_assets_images_digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* styling for benfits container */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* styling for benefit-blocks text */ 
+.benefits-block-styling {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* benefits header styling */
+.benefits-h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* styling for benefits images */
+.benefits-img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* content class styling */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* styling for content blocks */ 
+.content-blocks-styling {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* content blocks image styling */
+.content-img {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+/* styling for content blocks h2 tags */
+.content-h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* styling for footer block */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* styling for footer block h2 tag */
+.footer h2 {
+    font-size: 20px;
+}
