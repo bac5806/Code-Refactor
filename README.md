@@ -10,5 +10,5 @@ When given HTML and CSS skeleton code, refactor the existing code so that all st
 are properly functioning. In addtion, the project provided additional experience with git, git bash, and git hub by doing
 git clones, adds, commits, and pushes. 
 
-link: https://bac5806.github.io/Code_Refactor/
+link: https://bac5806.github.io/Code-Refactor/.
 
