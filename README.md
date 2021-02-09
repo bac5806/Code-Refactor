@@ -3,7 +3,7 @@ Refactoring HTML and CSS
 
 This project represents a mock website for a fictitious marketing comapny.
 
-![alt text](assets/images/code_refactor.png)
+
 
 The purpose of the project is: 
 When given HTML and CSS skeleton code, refactor the existing code so that all styling, images, and internal links
